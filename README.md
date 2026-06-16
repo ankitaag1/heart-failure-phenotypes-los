@@ -33,7 +33,7 @@ Admission/Discharge dates ─► length of stay (5 classes) ─► SMOTE ─► 
 
 | File | Description |
 |------|-------------|
-| Your EHR export (`DATA_PATH`) | CSV/Excel in the schema described below. **Contains PHI — keep it out of the repo.** |
+| Your EHR export (`DATA_PATH`) | CSV/Excel in the schema described below. |
 | CCSR mapping (`CCSR_PATH`) | AHRQ CCSR file mapping decimal-free ICD-10-CM `Code` → `Category` name (one code may map to several). Download from AHRQ — see below. |
 
 > **AHRQ CCSR mapping:** obtain the "CCSR for ICD-10-CM Diagnoses" tool from
